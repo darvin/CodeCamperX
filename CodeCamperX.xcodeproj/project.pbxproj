@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57312AAB156B0EC7001F61BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57312AAA156B0EC7001F61BF /* Cocoa.framework */; };
+		57312AB5156B0EC7001F61BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57312AB3156B0EC7001F61BF /* InfoPlist.strings */; };
+		57312AB7156B0EC7001F61BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57312AB6156B0EC7001F61BF /* main.m */; };
+		57312ABB156B0EC7001F61BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 57312AB9156B0EC7001F61BF /* Credits.rtf */; };
+		57312ABE156B0EC7001F61BF /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57312ABD156B0EC7001F61BF /* SKAppDelegate.m */; };
+		57312AC1156B0EC7001F61BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57312ABF156B0EC7001F61BF /* MainMenu.xib */; };
+		57312AC9156B0EC7001F61BF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57312AC8156B0EC7001F61BF /* SenTestingKit.framework */; };
+		57312ACA156B0EC7001F61BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57312AAA156B0EC7001F61BF /* Cocoa.framework */; };
+		57312AD2156B0EC7001F61BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57312AD0156B0EC7001F61BF /* InfoPlist.strings */; };
+		57312AD5156B0EC7001F61BF /* CodeCamperXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57312AD4156B0EC7001F61BF /* CodeCamperXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57312ACB156B0EC7001F61BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57312A9D156B0EC7001F61BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57312AA5156B0EC7001F61BF;
+			remoteInfo = CodeCamperX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57312AA6156B0EC7001F61BF /* CodeCamperX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCamperX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57312AAA156B0EC7001F61BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		57312AAD156B0EC7001F61BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		57312AAE156B0EC7001F61BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		57312AAF156B0EC7001F61BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57312AB2156B0EC7001F61BF /* CodeCamperX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeCamperX-Info.plist"; sourceTree = "<group>"; };
+		57312AB4156B0EC7001F61BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57312AB6156B0EC7001F61BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57312AB8156B0EC7001F61BF /* CodeCamperX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeCamperX-Prefix.pch"; sourceTree = "<group>"; };
+		57312ABA156B0EC7001F61BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		57312ABC156B0EC7001F61BF /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		57312ABD156B0EC7001F61BF /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		57312AC0156B0EC7001F61BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		57312AC7156B0EC7001F61BF /* CodeCamperXTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCamperXTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57312AC8156B0EC7001F61BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		57312ACF156B0EC7001F61BF /* CodeCamperXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeCamperXTests-Info.plist"; sourceTree = "<group>"; };
+		57312AD1156B0EC7001F61BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57312AD3156B0EC7001F61BF /* CodeCamperXTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeCamperXTests.h; sourceTree = "<group>"; };
+		57312AD4156B0EC7001F61BF /* CodeCamperXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeCamperXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57312AA3156B0EC7001F61BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57312AAB156B0EC7001F61BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57312AC3156B0EC7001F61BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57312AC9156B0EC7001F61BF /* SenTestingKit.framework in Frameworks */,
+				57312ACA156B0EC7001F61BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57312A9B156B0EC7001F61BF = {
+			isa = PBXGroup;
+			children = (
+				57312AB0156B0EC7001F61BF /* CodeCamperX */,
+				57312ACD156B0EC7001F61BF /* CodeCamperXTests */,
+				57312AA9156B0EC7001F61BF /* Frameworks */,
+				57312AA7156B0EC7001F61BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57312AA7156B0EC7001F61BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57312AA6156B0EC7001F61BF /* CodeCamperX.app */,
+				57312AC7156B0EC7001F61BF /* CodeCamperXTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57312AA9156B0EC7001F61BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57312AAA156B0EC7001F61BF /* Cocoa.framework */,
+				57312AC8156B0EC7001F61BF /* SenTestingKit.framework */,
+				57312AAC156B0EC7001F61BF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57312AAC156B0EC7001F61BF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57312AAD156B0EC7001F61BF /* AppKit.framework */,
+				57312AAE156B0EC7001F61BF /* CoreData.framework */,
+				57312AAF156B0EC7001F61BF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		57312AB0156B0EC7001F61BF /* CodeCamperX */ = {
+			isa = PBXGroup;
+			children = (
+				57312ABC156B0EC7001F61BF /* SKAppDelegate.h */,
+				57312ABD156B0EC7001F61BF /* SKAppDelegate.m */,
+				57312ABF156B0EC7001F61BF /* MainMenu.xib */,
+				57312AB1156B0EC7001F61BF /* Supporting Files */,
+			);
+			path = CodeCamperX;
+			sourceTree = "<group>";
+		};
+		57312AB1156B0EC7001F61BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57312AB2156B0EC7001F61BF /* CodeCamperX-Info.plist */,
+				57312AB3156B0EC7001F61BF /* InfoPlist.strings */,
+				57312AB6156B0EC7001F61BF /* main.m */,
+				57312AB8156B0EC7001F61BF /* CodeCamperX-Prefix.pch */,
+				57312AB9156B0EC7001F61BF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57312ACD156B0EC7001F61BF /* CodeCamperXTests */ = {
+			isa = PBXGroup;
+			children = (
+				57312AD3156B0EC7001F61BF /* CodeCamperXTests.h */,
+				57312AD4156B0EC7001F61BF /* CodeCamperXTests.m */,
+				57312ACE156B0EC7001F61BF /* Supporting Files */,
+			);
+			path = CodeCamperXTests;
+			sourceTree = "<group>";
+		};
+		57312ACE156B0EC7001F61BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57312ACF156B0EC7001F61BF /* CodeCamperXTests-Info.plist */,
+				57312AD0156B0EC7001F61BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57312AA5156B0EC7001F61BF /* CodeCamperX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57312AD8156B0EC7001F61BF /* Build configuration list for PBXNativeTarget "CodeCamperX" */;
+			buildPhases = (
+				57312AA2156B0EC7001F61BF /* Sources */,
+				57312AA3156B0EC7001F61BF /* Frameworks */,
+				57312AA4156B0EC7001F61BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeCamperX;
+			productName = CodeCamperX;
+			productReference = 57312AA6156B0EC7001F61BF /* CodeCamperX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57312AC6156B0EC7001F61BF /* CodeCamperXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57312ADB156B0EC7001F61BF /* Build configuration list for PBXNativeTarget "CodeCamperXTests" */;
+			buildPhases = (
+				57312AC2156B0EC7001F61BF /* Sources */,
+				57312AC3156B0EC7001F61BF /* Frameworks */,
+				57312AC4156B0EC7001F61BF /* Resources */,
+				57312AC5156B0EC7001F61BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57312ACC156B0EC7001F61BF /* PBXTargetDependency */,
+			);
+			name = CodeCamperXTests;
+			productName = CodeCamperXTests;
+			productReference = 57312AC7156B0EC7001F61BF /* CodeCamperXTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57312A9D156B0EC7001F61BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Self-Employed";
+			};
+			buildConfigurationList = 57312AA0156B0EC7001F61BF /* Build configuration list for PBXProject "CodeCamperX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57312A9B156B0EC7001F61BF;
+			productRefGroup = 57312AA7156B0EC7001F61BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57312AA5156B0EC7001F61BF /* CodeCamperX */,
+				57312AC6156B0EC7001F61BF /* CodeCamperXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57312AA4156B0EC7001F61BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57312AB5156B0EC7001F61BF /* InfoPlist.strings in Resources */,
+				57312ABB156B0EC7001F61BF /* Credits.rtf in Resources */,
+				57312AC1156B0EC7001F61BF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57312AC4156B0EC7001F61BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57312AD2156B0EC7001F61BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57312AC5156B0EC7001F61BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57312AA2156B0EC7001F61BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57312AB7156B0EC7001F61BF /* main.m in Sources */,
+				57312ABE156B0EC7001F61BF /* SKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57312AC2156B0EC7001F61BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57312AD5156B0EC7001F61BF /* CodeCamperXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57312ACC156B0EC7001F61BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57312AA5156B0EC7001F61BF /* CodeCamperX */;
+			targetProxy = 57312ACB156B0EC7001F61BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57312AB3156B0EC7001F61BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57312AB4156B0EC7001F61BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57312AB9156B0EC7001F61BF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57312ABA156B0EC7001F61BF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		57312ABF156B0EC7001F61BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57312AC0156B0EC7001F61BF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		57312AD0156B0EC7001F61BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57312AD1156B0EC7001F61BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57312AD6156B0EC7001F61BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		57312AD7156B0EC7001F61BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57312AD9156B0EC7001F61BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeCamperX/CodeCamperX-Prefix.pch";
+				INFOPLIST_FILE = "CodeCamperX/CodeCamperX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57312ADA156B0EC7001F61BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeCamperX/CodeCamperX-Prefix.pch";
+				INFOPLIST_FILE = "CodeCamperX/CodeCamperX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57312ADC156B0EC7001F61BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodeCamperX.app/Contents/MacOS/CodeCamperX";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeCamperX/CodeCamperX-Prefix.pch";
+				INFOPLIST_FILE = "CodeCamperXTests/CodeCamperXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57312ADD156B0EC7001F61BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodeCamperX.app/Contents/MacOS/CodeCamperX";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeCamperX/CodeCamperX-Prefix.pch";
+				INFOPLIST_FILE = "CodeCamperXTests/CodeCamperXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57312AA0156B0EC7001F61BF /* Build configuration list for PBXProject "CodeCamperX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57312AD6156B0EC7001F61BF /* Debug */,
+				57312AD7156B0EC7001F61BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57312AD8156B0EC7001F61BF /* Build configuration list for PBXNativeTarget "CodeCamperX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57312AD9156B0EC7001F61BF /* Debug */,
+				57312ADA156B0EC7001F61BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57312ADB156B0EC7001F61BF /* Build configuration list for PBXNativeTarget "CodeCamperXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57312ADC156B0EC7001F61BF /* Debug */,
+				57312ADD156B0EC7001F61BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57312A9D156B0EC7001F61BF /* Project object */;
+}
